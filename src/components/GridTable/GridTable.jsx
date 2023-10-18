@@ -68,7 +68,7 @@ const GridTable = () => {
     { name: "address", title: "Address" },
   ]);
   const [rows, setRows] = useState(jsonData);
-  const [selection, setSelection] = useState([1]);
+  const [selection, setSelection] = useState([]);
   const [defaultColumnWidths] = useState([
     { columnName: "id", width: 70 },
     { columnName: "firstName", width: 120 },
