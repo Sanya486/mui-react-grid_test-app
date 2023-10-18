@@ -8,6 +8,8 @@ import {
   SortingState,
   GroupingState,
   SummaryState,
+  SearchState,
+  IntegratedFiltering,
   IntegratedSelection,
   IntegratedPaging,
   IntegratedSorting,
@@ -30,6 +32,7 @@ import {
   TableColumnResizing,
   TableSummaryRow,
   ExportPanel,
+  SearchPanel,
 } from "@devexpress/dx-react-grid-material-ui";
 import { GridExporter } from "@devexpress/dx-react-grid-export";
 
@@ -81,6 +84,11 @@ const GridTable = () => {
     { columnName: "address", width: 120 },
   ]);
   const [totalSummaryItems] = useState([{ columnName: "id", type: "count" }]);
+    const [sorting, setSorting] = useState([
+      { columnName: "id", direction: "asc" },
+    ]);
+   const [searchValue, setSearchState] = useState("");
+
 
   const commitChanges = ({ added, changed, deleted }) => {
     let changedRows;
@@ -118,16 +126,16 @@ const GridTable = () => {
           selection={selection}
           onSelectionChange={setSelection}
         />
-        <SortingState
-          defaultSorting={[{ columnName: "id", direction: "asc" }]}
-        />
+        <SortingState sorting={sorting} onSortingChange={setSorting} />
         <GroupingState />
+        <SearchState value={searchValue} onValueChange={setSearchState} />
         <SummaryState totalItems={totalSummaryItems} />
         <IntegratedSorting />
         <IntegratedSelection />
         <IntegratedGrouping />
-        <IntegratedSummary />
+        <IntegratedFiltering />
         <IntegratedPaging />
+        <IntegratedSummary />
         <VirtualTable />
         <TableColumnResizing defaultColumnWidths={defaultColumnWidths} />
         <TableColumnReordering
@@ -150,14 +158,17 @@ const GridTable = () => {
         <TableGroupRow />
         <Toolbar />
         <GroupingPanel showSortingControls />
+        <SearchPanel />
         <PagingPanel />
         <TableSummaryRow />
+
         <ExportPanel startExport={startExport} />
       </Grid>
       <GridExporter
         ref={exporterRef}
         rows={rows}
         columns={columns}
+        sorting={sorting}
         totalSummaryItems={totalSummaryItems}
         selection={selection}
         onSave={onSave}
