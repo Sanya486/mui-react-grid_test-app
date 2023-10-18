@@ -1,0 +1,222 @@
+[
+  {
+    "id": 1,
+    "firstName": "John",
+    "lastName": "Doe",
+    "department": "HR",
+    "position": "Manager",
+    "email": "john.doe@email.com",
+    "phone": "123-456-7890",
+    "hireDate": "2022-05-15",
+    "address": "123 Main St, City, State"
+  },
+  {
+    "id": 2,
+    "firstName": "Jane",
+    "lastName": "Smith",
+    "department": "Engineering",
+    "position": "Software Engineer",
+    "email": "jane.smith@email.com",
+    "phone": "456-789-1234",
+    "hireDate": "2021-10-20",
+    "address": "456 Elm St, City, State"
+  },
+  {
+    "id": 3,
+    "firstName": "Bob",
+    "lastName": "Johnson",
+    "department": "Marketing",
+    "position": "Marketing Specialist",
+    "email": "bob.johnson@email.com",
+    "phone": "789-123-4567",
+    "hireDate": "2022-02-10",
+    "address": "789 Oak St, City, State"
+  },
+  {
+    "id": 4,
+    "firstName": "Alice",
+    "lastName": "Brown",
+    "department": "Finance",
+    "position": "Financial Analyst",
+    "email": "alice.brown@email.com",
+    "phone": "234-567-8901",
+    "hireDate": "2021-12-05",
+    "address": "101 Pine St, City, State"
+  },
+  {
+    "id": 5,
+    "firstName": "Charlie",
+    "lastName": "Wilson",
+    "department": "Engineering",
+    "position": "UI Designer",
+    "email": "charlie.wilson@email.com",
+    "phone": "345-678-9012",
+    "hireDate": "2023-03-25",
+    "address": "567 Cedar St, City, State"
+  },
+  {
+    "id": 6,
+    "firstName": "Eva",
+    "lastName": "Davis",
+    "department": "HR",
+    "position": "HR Specialist",
+    "email": "eva.davis@email.com",
+    "phone": "678-901-2345",
+    "hireDate": "2022-08-14",
+    "address": "432 Birch St, City, State"
+  },
+  {
+    "id": 7,
+    "firstName": "Michael",
+    "lastName": "Miller",
+    "department": "Engineering",
+    "position": "Lead Developer",
+    "email": "michael.miller@email.com",
+    "phone": "987-654-3210",
+    "hireDate": "2021-11-30",
+    "address": "876 Willow St, City, State"
+  },
+  {
+    "id": 8,
+    "firstName": "Olivia",
+    "lastName": "Jones",
+    "department": "Finance",
+    "position": "Financial Analyst",
+    "email": "olivia.jones@email.com",
+    "phone": "543-210-9876",
+    "hireDate": "2022-04-15",
+    "address": "543 Elm St, City, State"
+  },
+  {
+    "id": 9,
+    "firstName": "Daniel",
+    "lastName": "Martinez",
+    "department": "Marketing",
+    "position": "Marketing Specialist",
+    "email": "daniel.martinez@email.com",
+    "phone": "210-987-6543",
+    "hireDate": "2023-02-25",
+    "address": "987 Oak St, City, State"
+  },
+  {
+    "id": 10,
+    "firstName": "Sophia",
+    "lastName": "Brown",
+    "department": "Engineering",
+    "position": "UI Designer",
+    "email": "sophia.brown@email.com",
+    "phone": "654-321-2109",
+    "hireDate": "2021-09-10",
+    "address": "321 Maple St, City, State"
+  },
+  {
+    "id": 11,
+    "firstName": "Matthew",
+    "lastName": "Garcia",
+    "department": "HR",
+    "position": "HR Specialist",
+    "email": "matthew.garcia@email.com",
+    "phone": "789-123-4567",
+    "hireDate": "2022-07-05",
+    "address": "456 Cedar St, City, State"
+  },
+  {
+    "id": 12,
+    "firstName": "Emily",
+    "lastName": "Roberts",
+    "department": "Finance",
+    "position": "Financial Analyst",
+    "email": "emily.roberts@email.com",
+    "phone": "321-654-9870",
+    "hireDate": "2022-12-20",
+    "address": "210 Birch St, City, State"
+  },
+  {
+    "id": 13,
+    "firstName": "William",
+    "lastName": "Davis",
+    "department": "Marketing",
+    "position": "Marketing Specialist",
+    "email": "william.davis@email.com",
+    "phone": "456-789-1230",
+    "hireDate": "2022-10-15",
+    "address": "654 Willow St, City, State"
+  },
+  {
+    "id": 14,
+    "firstName": "Isabella",
+    "lastName": "Harris",
+    "department": "Engineering",
+    "position": "UI Designer",
+    "email": "isabella.harris@email.com",
+    "phone": "123-210-9876",
+    "hireDate": "2023-01-25",
+    "address": "987 Pine St, City, State"
+  },
+  {
+    "id": 15,
+    "firstName": "Liam",
+    "lastName": "Thompson",
+    "department": "HR",
+    "position": "Manager",
+    "email": "liam.thompson@email.com",
+    "phone": "654-987-2103",
+    "hireDate": "2021-08-01",
+    "address": "543 Cedar St, City, State"
+  },
+  {
+    "id": 16,
+    "firstName": "Ava",
+    "lastName": "Turner",
+    "department": "Marketing",
+    "position": "Marketing Specialist",
+    "email": "ava.turner@email.com",
+    "phone": "210-987-6543",
+    "hireDate": "2022-06-10",
+    "address": "876 Elm St, City, State"
+  },
+  {
+    "id": 17,
+    "firstName": "James",
+    "lastName": "White",
+    "department": "Finance",
+    "position": "Financial Analyst",
+    "email": "james.white@email.com",
+    "phone": "987-654-2109",
+    "hireDate": "2022-09-15",
+    "address": "210 Oak St, City, State"
+  },
+  {
+    "id": 18,
+    "firstName": "Mia",
+    "lastName": "Anderson",
+    "department": "Engineering",
+    "position": "Software Engineer",
+    "email": "mia.anderson@email.com",
+    "phone": "456-789-1230",
+    "hireDate": "2021-07-25",
+    "address": "654 Maple St, City, State"
+  },
+  {
+    "id": 19,
+    "firstName": "Benjamin",
+    "lastName": "Young",
+    "department": "HR",
+    "position": "HR Specialist",
+    "email": "benjamin.young@email.com",
+    "phone": "321-654-9870",
+    "hireDate": "2023-03-20",
+    "address": "321 Willow St, City, State"
+  },
+  {
+    "id": 20,
+    "firstName": "Emma",
+    "lastName": "Hernandez",
+    "department": "Finance",
+    "position": "Financial Analyst",
+    "email": "emma.hernandez@email.com",
+    "phone": "654-987-2103",
+    "hireDate": "2022-04-10",
+    "address": "543 Birch St, City, State"
+  }
+]
