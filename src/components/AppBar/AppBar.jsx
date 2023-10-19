@@ -17,7 +17,10 @@ import Typography from "@mui/material/Typography";
 import { Link } from "react-router-dom";
 
 const drawerWidth = 240;
-// const navItems = ["Grid", "ChartJS"];
+const navItems = [
+  { key: "Grid", path: "/" },
+  { key: "ChartJS", path: "/chartjs" },
+];
 
 function DrawerAppBar(props) {
   const { window } = props;
@@ -34,13 +37,15 @@ function DrawerAppBar(props) {
       </Typography>
       <Divider />
       <List>
-        {/* {navItems.map((item) => (
-          <ListItem key={item} disablePadding>
-            <ListItemButton sx={{ textAlign: "center" }}>
-              <ListItemText primary={item} />
-            </ListItemButton>
+        {navItems.map(({ key, path }) => (
+          <ListItem key={key} disablePadding>
+            <Link to={path}>
+              <ListItemButton sx={{ textAlign: "center" }}>
+                <ListItemText primary={key} />
+              </ListItemButton>
+            </Link>
           </ListItem>
-        ))} */}
+        ))}
       </List>
     </Box>
   );
@@ -70,17 +75,14 @@ function DrawerAppBar(props) {
             React Grid Test App
           </Typography>
           <Box sx={{ display: { xs: "none", sm: "block" } }}>
-            <Link to="/">
-              {" "}
-              <Button key="GRID" sx={{ color: "#fff" }}>
-                Grid
-              </Button>
-            </Link>
-            <Link to="/chartjs">
-              <Button key="ChartJS" sx={{ color: "#fff" }}>
-                ChartJS
-              </Button>
-            </Link>
+            {navItems.map(({ key, path }) => (
+              <Link to={path}>
+                {" "}
+                <Button key={key} sx={{ color: "#fff" }}>
+                  { key}
+                </Button>
+              </Link>
+            ))}
           </Box>
         </Toolbar>
       </AppBar>

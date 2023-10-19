@@ -69,6 +69,7 @@ const GridTable = () => {
     { name: "phone", title: "Phone" },
     { name: "hireDate", title: "HireDate" },
     { name: "address", title: "Address" },
+    { name: "salary", title: "Salary" },
   ]);
   const [rows, setRows] = useState(jsonData);
   const [selection, setSelection] = useState([]);
@@ -82,13 +83,13 @@ const GridTable = () => {
     { columnName: "phone", width: 120 },
     { columnName: "hireDate", width: 120 },
     { columnName: "address", width: 120 },
+    { columnName: "salary", width: 120 },
   ]);
   const [totalSummaryItems] = useState([{ columnName: "id", type: "count" }]);
-    const [sorting, setSorting] = useState([
-      { columnName: "id", direction: "asc" },
-    ]);
-   const [searchValue, setSearchState] = useState("");
-
+  const [sorting, setSorting] = useState([
+    { columnName: "id", direction: "asc" },
+  ]);
+  const [searchValue, setSearchState] = useState("");
 
   const commitChanges = ({ added, changed, deleted }) => {
     let changedRows;
@@ -143,6 +144,7 @@ const GridTable = () => {
             "id",
             "firstName",
             "lastName",
+            "salary",
             "department",
             "position",
             "email",

@@ -8,7 +8,8 @@
     "email": "john.doe@email.com",
     "phone": "123-456-7890",
     "hireDate": "2022-05-15",
-    "address": "123 Main St, City, State"
+    "address": "123 Main St, City, State",
+    "salary": 1000
   },
   {
     "id": 2,
@@ -19,7 +20,8 @@
     "email": "jane.smith@email.com",
     "phone": "456-789-1234",
     "hireDate": "2021-10-20",
-    "address": "456 Elm St, City, State"
+    "address": "456 Elm St, City, State",
+    "salary": 5000
   },
   {
     "id": 3,
@@ -30,7 +32,8 @@
     "email": "bob.johnson@email.com",
     "phone": "789-123-4567",
     "hireDate": "2022-02-10",
-    "address": "789 Oak St, City, State"
+    "address": "789 Oak St, City, State",
+    "salary":7500
   },
   {
     "id": 4,
@@ -41,7 +44,8 @@
     "email": "alice.brown@email.com",
     "phone": "234-567-8901",
     "hireDate": "2021-12-05",
-    "address": "101 Pine St, City, State"
+    "address": "101 Pine St, City, State",
+    "salary": 6000
   },
   {
     "id": 5,
@@ -52,7 +56,8 @@
     "email": "charlie.wilson@email.com",
     "phone": "345-678-9012",
     "hireDate": "2023-03-25",
-    "address": "567 Cedar St, City, State"
+    "address": "567 Cedar St, City, State",
+    "salary": 10000
   },
   {
     "id": 6,
@@ -63,7 +68,8 @@
     "email": "eva.davis@email.com",
     "phone": "678-901-2345",
     "hireDate": "2022-08-14",
-    "address": "432 Birch St, City, State"
+    "address": "432 Birch St, City, State",
+    "salary": 4000
   },
   {
     "id": 7,
@@ -74,7 +80,8 @@
     "email": "michael.miller@email.com",
     "phone": "987-654-3210",
     "hireDate": "2021-11-30",
-    "address": "876 Willow St, City, State"
+    "address": "876 Willow St, City, State",
+    "salary": 9000
   },
   {
     "id": 8,
@@ -85,7 +92,8 @@
     "email": "olivia.jones@email.com",
     "phone": "543-210-9876",
     "hireDate": "2022-04-15",
-    "address": "543 Elm St, City, State"
+    "address": "543 Elm St, City, State",
+    "salary": 5560
   },
   {
     "id": 9,
@@ -96,7 +104,8 @@
     "email": "daniel.martinez@email.com",
     "phone": "210-987-6543",
     "hireDate": "2023-02-25",
-    "address": "987 Oak St, City, State"
+    "address": "987 Oak St, City, State",
+    "salary": 7800
   },
   {
     "id": 10,
@@ -107,7 +116,8 @@
     "email": "sophia.brown@email.com",
     "phone": "654-321-2109",
     "hireDate": "2021-09-10",
-    "address": "321 Maple St, City, State"
+    "address": "321 Maple St, City, State",
+    "salary": 9000
   },
   {
     "id": 11,
@@ -118,7 +128,8 @@
     "email": "matthew.garcia@email.com",
     "phone": "789-123-4567",
     "hireDate": "2022-07-05",
-    "address": "456 Cedar St, City, State"
+    "address": "456 Cedar St, City, State",
+    "salary": 6400
   },
   {
     "id": 12,
@@ -129,7 +140,8 @@
     "email": "emily.roberts@email.com",
     "phone": "321-654-9870",
     "hireDate": "2022-12-20",
-    "address": "210 Birch St, City, State"
+    "address": "210 Birch St, City, State",
+    "salary": 3000
   },
   {
     "id": 13,
@@ -140,7 +152,8 @@
     "email": "william.davis@email.com",
     "phone": "456-789-1230",
     "hireDate": "2022-10-15",
-    "address": "654 Willow St, City, State"
+    "address": "654 Willow St, City, State",
+    "salary": 4300
   },
   {
     "id": 14,
@@ -151,7 +164,8 @@
     "email": "isabella.harris@email.com",
     "phone": "123-210-9876",
     "hireDate": "2023-01-25",
-    "address": "987 Pine St, City, State"
+    "address": "987 Pine St, City, State",
+    "salary": 8100
   },
   {
     "id": 15,
@@ -162,7 +176,8 @@
     "email": "liam.thompson@email.com",
     "phone": "654-987-2103",
     "hireDate": "2021-08-01",
-    "address": "543 Cedar St, City, State"
+    "address": "543 Cedar St, City, State",
+    "salary": 9500
   },
   {
     "id": 16,
@@ -173,7 +188,8 @@
     "email": "ava.turner@email.com",
     "phone": "210-987-6543",
     "hireDate": "2022-06-10",
-    "address": "876 Elm St, City, State"
+    "address": "876 Elm St, City, State",
+    "salary": 2000
   },
   {
     "id": 17,
@@ -184,7 +200,8 @@
     "email": "james.white@email.com",
     "phone": "987-654-2109",
     "hireDate": "2022-09-15",
-    "address": "210 Oak St, City, State"
+    "address": "210 Oak St, City, State",
+    "salary": 3500
   },
   {
     "id": 18,
@@ -195,7 +212,8 @@
     "email": "mia.anderson@email.com",
     "phone": "456-789-1230",
     "hireDate": "2021-07-25",
-    "address": "654 Maple St, City, State"
+    "address": "654 Maple St, City, State",
+    "salary": 1500
   },
   {
     "id": 19,
@@ -206,7 +224,8 @@
     "email": "benjamin.young@email.com",
     "phone": "321-654-9870",
     "hireDate": "2023-03-20",
-    "address": "321 Willow St, City, State"
+    "address": "321 Willow St, City, State",
+    "salary": 5600
   },
   {
     "id": 20,
@@ -217,6 +236,7 @@
     "email": "emma.hernandez@email.com",
     "phone": "654-987-2103",
     "hireDate": "2022-04-10",
-    "address": "543 Birch St, City, State"
+    "address": "543 Birch St, City, State",
+    "salary": 10000
   }
 ]
