@@ -1,13 +1,17 @@
-import Container from "@mui/material/Container";
-import GridTable from "./components/GridTable/GridTable";
-import DrawerAppBar from "./components/AppBar/AppBar";
+import { Navigate, Route, Routes } from "react-router-dom";
+import Layout from "./components/Layout/Layout";
+import GridPage from "./pages/GridPage";
+import ChartJsPage from "./pages/ChartJsPage";
 
 function App() {
   return (
-    <>
-      <DrawerAppBar/>
-      <Container sx={{paddingTop: "20px"}}><GridTable /></Container>
-    </>
+    <Routes>
+      <Route path="/" element={<Layout />}>
+        <Route index element={<GridPage />} />
+        <Route path="/chartjs" element={<ChartJsPage />} />
+      </Route>
+      <Route path="*" element={<Navigate to="/" />} />
+    </Routes>
   );
 }
 

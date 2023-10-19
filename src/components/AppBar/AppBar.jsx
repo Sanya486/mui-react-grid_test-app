@@ -6,16 +6,18 @@ import CssBaseline from "@mui/material/CssBaseline";
 import Divider from "@mui/material/Divider";
 import Drawer from "@mui/material/Drawer";
 import IconButton from "@mui/material/IconButton";
-// import List from "@mui/material/List";
-// import ListItem from "@mui/material/ListItem";
-// import ListItemButton from "@mui/material/ListItemButton";
-// import ListItemText from "@mui/material/ListItemText";
+import { Button } from "@mui/material";
+import List from "@mui/material/List";
+import ListItem from "@mui/material/ListItem";
+import ListItemButton from "@mui/material/ListItemButton";
+import ListItemText from "@mui/material/ListItemText";
 import MenuIcon from "@mui/icons-material/Menu";
 import Toolbar from "@mui/material/Toolbar";
 import Typography from "@mui/material/Typography";
+import { Link } from "react-router-dom";
 
 const drawerWidth = 240;
-// const navItems = ["Home", "About", "Contact"];
+// const navItems = ["Grid", "ChartJS"];
 
 function DrawerAppBar(props) {
   const { window } = props;
@@ -31,15 +33,15 @@ function DrawerAppBar(props) {
         React Grid Test App
       </Typography>
       <Divider />
-      {/* <List>
-        {navItems.map((item) => (
+      <List>
+        {/* {navItems.map((item) => (
           <ListItem key={item} disablePadding>
             <ListItemButton sx={{ textAlign: "center" }}>
               <ListItemText primary={item} />
             </ListItemButton>
           </ListItem>
-        ))}
-      </List> */}
+        ))} */}
+      </List>
     </Box>
   );
 
@@ -67,13 +69,19 @@ function DrawerAppBar(props) {
           >
             React Grid Test App
           </Typography>
-          {/* <Box sx={{ display: { xs: "none", sm: "block" } }}>
-            {navItems.map((item) => (
-              <Button key={item} sx={{ color: "#fff" }}>
-                {item}
+          <Box sx={{ display: { xs: "none", sm: "block" } }}>
+            <Link to="/">
+              {" "}
+              <Button key="GRID" sx={{ color: "#fff" }}>
+                Grid
               </Button>
-            ))}
-          </Box> */}
+            </Link>
+            <Link to="/chartjs">
+              <Button key="ChartJS" sx={{ color: "#fff" }}>
+                ChartJS
+              </Button>
+            </Link>
+          </Box>
         </Toolbar>
       </AppBar>
       <nav>
@@ -96,7 +104,7 @@ function DrawerAppBar(props) {
           {drawer}
         </Drawer>
       </nav>
-      <Box component="main" sx={{ p:"1px" }}>
+      <Box component="main" sx={{ p: "1px" }}>
         <Toolbar />
       </Box>
     </Box>
